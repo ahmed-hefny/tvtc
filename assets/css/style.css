@@ -1,0 +1,78 @@
+@font-face {
+   font-family: 'cairo';
+   src: url(./../fonts/Cairo-VariableFont_wght.ttf);
+}
+:root {
+   --blue: #1e90ff;
+   --white: #ffffff;
+   --bs-nav-link-hover-color: #a3d09d;
+}
+/* Scroll bar style */
+/* width */
+::-webkit-scrollbar {
+   width: 10px;
+ }
+ 
+ /* Track */
+ ::-webkit-scrollbar-track {
+   background: #f1f1f1;
+
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+   background: #126C66;
+ }
+ 
+ /* Handle on hover */
+ ::-webkit-scrollbar-thumb:hover {
+   background: #10948b;
+ }
+/* Scroll bar style */
+
+*{
+   box-sizing: border-box;
+   font-family: "Cairo",Arial,Helvetica,sans-serif;
+}
+.bg-main{
+   background: #126C66;
+}
+.text-main{
+   color:  #126C66;
+}
+.nav-link:hover {
+   color: #a3d09d !important;
+}
+
+.nav-item{
+   cursor: pointer;
+}
+
+.card-item img{
+   width: 60px;
+   max-height: 65px;
+   filter: brightness(0) invert(1);
+}
+.card-item a {
+   transition: all 0.5s;
+}
+.card-item a:hover {
+   background: #126C66;
+}
+.card-item a:hover h4  {
+   color: white;
+}
+
+.card-item a:hover .bg-main{
+   background-color: #38847F;
+}
+
+.box{
+   min-height: 10rem;
+}
+/* 
+@media screen and (max-width: 992px) {
+   .box{
+      min-height: 10rem;
+   }
+} */

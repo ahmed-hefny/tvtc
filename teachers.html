@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en" dir="rtl">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>اعضاء الهيئة التدريبية بالتخصص</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="icon" href="./assets/images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <!-- Nav bar -->
+    <nav class="navbar sticky-top bg-main">
+        <div class="container d-flex ">
+            <a href="./index.html">
+                <img src="./assets/images/logo.svg" alt="">
+            </a>
+        </div>
+    </nav>
+    <div class="container">
+
+        <h2 class="text-main text-center pt-3">
+            <span class="border-bottom ps-3 pb-2 d-inline-block ">
+                اعضاء الهيئة التدريبية بالتخصص
+            </span>
+        </h2>
+    </div>
+    <!-- body sections -->
+    <section class="container py-5">
+        <div class="row justify-content-center" dir="rtl">
+            
+            <div class="col-md-6 col-12 mb-3">
+                <div class="teachers-main-border p-3 d-flex justify-content-between align-items-center">
+                    <div class="w-25"> 
+                      <img src="./assets/images/favicon.png" class="teacher-img" alt="">
+                    </div>
+                    <div class="w-50 d-flex flex-column justify-content-between">
+                        <h4 class="text-center">
+                          رئيس القسم
+                        </h4>
+                        <p class="text-center">
+                            <a href="mailto:#">بريد رئيس القسم</a>
+                        </p>
+                    </div>
+                    <div class="w-25 d-flex justify-content-end"> 
+                      <img src="./assets/images/favicon.png" class="teacher-img" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" id="teachers" dir="rtl"></div>
+
+    </section>
+
+
+    <!-- Copyrights -->
+    <footer class="bg-main border-top py-4">
+        <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center" dir="rtl">
+            <span class="text-white text-center text-md-end">جميع الحقوق محفوظة - المؤسسة العامة للتدريب التقني والمهني
+                (TVTC) © 2022 </span>
+            <div>
+                <ul class="navbar-nav flex-row">
+
+                    <li class="nav-item px-2 border-start ">
+                        <a class="nav-link text-white py-0 fw-semibold"
+                            href="https://tvtc.gov.sa/ar/Departments/tvtcdepartments/Rayat/Pages/PrivacyPolicy.aspx"
+                            target="_blank">سيـاسة الخصوصية</a>
+                    </li>
+                    <li class="nav-item px-2 border-start ">
+                        <a class="nav-link text-white py-0 fw-semibold"
+                            href="https://tvtc.gov.sa/ar/Departments/tvtcdepartments/Rayat/Pages/SiteMap.aspx">خريطة
+                            الموقع</a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a class="nav-link text-white py-0 fw-semibold"
+                            href="https://tvtc.gov.sa/ar/Departments/tvtcdepartments/Rayat/Pages//ar/Pages/TermsCondition.aspx">الشروط
+                            والاحكام</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+    <script src="./helpers.js"></script>
+    <script>
+        renderTeachers();
+    </script>
+</body>
+
+</html>

@@ -70,9 +70,35 @@
 .box{
    min-height: 10rem;
 }
-/* 
-@media screen and (max-width: 992px) {
-   .box{
-      min-height: 10rem;
+.logo{
+   width: auto;
+}
+.teachers-main-border{
+   border: 5px solid #126C66;
+   border-radius: 12px;
+   min-height: 150px;
+}
+.teacher-img{
+   max-height: 4.6rem;
+}
+
+@media screen and (max-width: 768px) {
+   .logo{
+      width: 100%;
    }
-} */
+}
+@media screen and (min-width: 1200px){
+   .teachers-main-border{
+      min-height: 200px;
+   }
+   .teacher-img{
+      max-height: 6.25rem;
+   }
+   .content h4{
+      font-size: 2rem;
+   }
+   .content p {
+      font-size: 0.8rem;
+      margin: 0px;
+   }
+}

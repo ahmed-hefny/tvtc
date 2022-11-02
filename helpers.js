@@ -78,11 +78,11 @@ const libraries = [
     map: "https://maps.app.goo.gl/ntwEh7xRHCiosUM98?g_st=ic",
   },
 
-  {
-    name: "مكتبه الشقيري",
-    phone: null,
-    map: "https://maps.app.goo.gl/cGyKFaKs485SNhZJ8?g_st=ic",
-  },
+  // {
+  //   name: "مكتبه الشقيري",
+  //   phone: null,
+  //   map: "https://maps.app.goo.gl/cGyKFaKs485SNhZJ8?g_st=ic",
+  // },
   {
     name: "مكتبة دار حافظ",
     phone: "055 051 0087",

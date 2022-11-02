@@ -116,49 +116,101 @@ const libraries = [
 
 const teachers = [
   {
-    name: "أ/ احمد عباس الجعلى",
+    name: "أ/ احمد عباس الجعلي",
     mail: "aaljaaly@tvtc.gov.sa",
   },
   {
-    name: "أ/ محمد حميد الجحدلى",
+    name: "أ/ محمد حميد الجحدلي",
     mail: "maljahdali@tvtc.gov.sa",
   },
   {
-    name: "أ/ على عايض القرنى",
+    name: "أ/ علي عايض القرني",
     mail: "aalgrni@tvtc.gov.sa"
   },
   {
-    name: "أ/ على عايض القرنى",
-    mail: "aalgrni@tvtc.gov.sa"
-  },
-  {
-    name: "أ/ عبدالمنعم عبدالهادى الشهري",
+    name: "أ/ عبدالمنعم عبدالهادي الشهري",
     mail: "aalshehri17@tvtc.gov.sa"
   },
   {
-    name: "أ/ بندر عابد اليوبى",
+    name: "أ/ بندر عابد اليوبي",
     mail: "balyoubi@tvtc.gov.sa"
   },
   {
-    name: "أ/ مزهر على القحطانى",
+    name: "أ/ مزهر علي القحطاني",
     mail: "malqahtani4@tvtc.gov.sa" 
   },
   {
-    name: "أ/ سعد عبدالله الغامدى",
+    name: "أ/ سعد عبدالله الغامدي",
     mail: "salghamdi15@tvtc.gov.sa" 
   },
   {
-    name: "أ/ عبيد عتيق السميرى",
+    name: "أ/ عبيد عتيق السميري",
     mail: "oalsumaire@tvtc.gov.sa"
   },
   {
-    name: "أ/ عبدالرحمن عبدالله القرنى",
+    name: "أ/ عبدالرحمن عبدالله القرني",
     mail: "aalqarni@tvtc.gov.sa"
   },
   {
-    name: "أ/ أحمد حمود الجهنى",
+    name: "أ/ أحمد حمود الجهني",
     mail: "aaljehani@tvtc.gov.sa"
-  }
+  },
+  {
+    name: "أ/ عبدالرحمن عبدالهادى العمري",
+    mail: "aalamri@tvtc.gov.sa"
+  },
+  {
+    name: "أ/ عبدالعزيز علي مزهر",
+    mail: "q_ziz@tvtc.gov.sa"
+  },
+  {
+    name: "أ/ سعد على الشريف",
+    mail: "saalshar@tvtc.gov.sa"
+  },
+  {
+    name: "أ/ محمد محسن الشهري",
+    mail: "mmalsh@tvtc.gov.sa"
+  },
+  {
+    name: "أ/ فهد أحمد الصقور",
+    mail: "falsgour@tvtc.gov.sa"
+  },
+  {
+    name: "أ/ محمد صالح السياري",
+    mail: "malsayari@tvtc.gov.sa"
+  },
+  {
+    name: "أ/ سعد حسن الغامدي",
+    mail: "salghamdi12@tvtc.gov.sa"
+  },
+  {
+    name: "أ/ مرضى حسن الزهراني",
+    mail: "nalzhrani1@tvtc.gov.sa"
+  },
+  {
+    name: "أ/ محمد رشيد الحربى",
+    mail: "malharbi2@tvtc.gov.sa"
+  },
+  {
+    name: "أ/ عامر عتيق الجهني",
+    mail: "aaljohaney@tvtc.gov.sa"
+  },
+  {
+    name: "أ/إبراهيم عتيق الجهني",
+    mail: "ialjohany@tvtc.gov.sa"
+  },
+  {
+    name: "أ/ إبراهيم عبدالرحمن الوكيل",
+    mail: "ialwakil@tvtc.gov.sa"
+  },
+  {
+    name: "أ/ عبدالرحمن أحمد الجبيري",
+    mail: "aaljubiry@tvtc.gov.sa"
+  },
+  {
+    name: "أ/ نبيل عبدالكريم الجدعاني",
+    mail: "naalgd@tvtc.gov.sa"
+  },
 ];
 
 function render() {

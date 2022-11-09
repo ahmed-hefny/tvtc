@@ -73,6 +73,10 @@
 .box{
    min-height: 10rem;
 }
+.small-box{
+   min-height: 5rem;
+
+}
 .logo{
    width: auto;
 }

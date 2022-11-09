@@ -21,19 +21,44 @@
          </a>
       </div>
    </nav>
+   <!-- body sections -->
    <div class="container">
+      <!-- Heading  -->
+      <section>
+         <h2 class="text-main pt-3 text-center">
+            <span class="border-bottom px-3 pb-2 d-inline-block ">
+               نبذة:
+            </span>
+         </h2>
+         <p>
+            قدمنا لكم بعض المكتبات الرسميه والموثوقه وايضاً المكتبات الالكترونيه وايضاً المكتبات الخاصه ب الكتب
+            المستعمله بأمكانكم التصفح واختيار المكتبه المناسبه لكم
+         </p>
 
+      </section>
+      <!-- Electronic Libraries -->
       <h2 class="text-main pt-3">
          <span class="border-bottom ps-3 pb-2 d-inline-block ">
-            قائمه المكتبات لبيع الكتب المستعمله
+            قائمه المكتبات الالكترونية
          </span>
       </h2>
-   </div>
-   <!-- body sections -->
-   <section class="container py-5">
-      <div class="row" id="lib" dir="rtl"></div>
+      <section class="py-5">
+         <div class="row" id="electronicLib" dir="rtl"></div>
 
-   </section>
+      </section>
+
+
+      <!-- Used Libraries -->
+      <h2 class="text-main pt-3">
+         <span class="border-bottom ps-3 pb-2 d-inline-block ">
+            قائمه المكتبات لبيع الكتب
+         </span>
+      </h2>
+      <section class="py-5">
+         <div class="row" id="usedLib" dir="rtl"></div>
+
+      </section>
+   </div>
 
 
    <!-- Copyrights -->
@@ -68,7 +93,8 @@
       crossorigin="anonymous"></script>
    <script src="./helpers.js"></script>
    <script>
-      render();
+      renderElecLibs();
+      renderUsedLib();
    </script>
 </body>
 

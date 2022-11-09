@@ -114,6 +114,34 @@ const libraries = [
   },
 ];
 
+const electronicLibraries = [
+  {
+    name: 'المكتبة الرقمية السعودية',
+    url: 'https://sdl.edu.sa/SDLPortal/Publishers.aspx'
+  },
+  {
+    name: 'مكتبة نيل و فرات',
+    url: 'https://www.neelwafurat.com'
+  },
+  {
+    name: 'مكتبة الملك فهد الوطنية',
+    url: 'https://kfnl.gov.sa/ar/Pages/default.aspx'
+  },
+  {
+    name: 'مكتبة جامعة الملك فيصل',
+    url: 'https://www.kfu.edu.sa/ar/Deans/Library/Pages/elibrary.aspx'
+  },
+  {
+    name: 'مكتبة جرير',
+    url: 'https://www.jarir.com/office-supplies.html'
+  },
+  {
+    name: 'مكتبة وراقون',
+    url: 'https://wrraqoon.com/'
+  },
+
+]
+
 const teachers = [
   {
     name: "أ/ احمد عباس الجعلي",
@@ -213,8 +241,8 @@ const teachers = [
   },
 ];
 
-function render() {
-  const libContainer = document.getElementById("lib");
+function renderUsedLib() {
+  const libContainer = document.getElementById("usedLib");
   libContainer.innerHTML = "";
   for (let i = 0; i < libraries.length; i++) {
     libContainer.innerHTML += `
@@ -245,6 +273,29 @@ function render() {
             </div>
             `;
   }
+}
+
+function renderElecLibs(){
+  const libContainer = document.getElementById("electronicLib");
+  libContainer.innerHTML = "";
+  for (let i = 0; i < electronicLibraries.length; i++) {
+    libContainer.innerHTML += `
+      <div class="col-lg-4 col-md-6 col-12 mb-3">
+          <div
+            class="px-3 py-3 shadow-lg d-flex flex-column justify-content-between small-box text-decoration-none rounded-3 ">
+            <h4 class="text-main fw-bold ">
+            ${electronicLibraries[i].name}
+            </h4>
+            <div>
+                <a href="${electronicLibraries[i].url}" target="_blank" class="d-block text-decoration-none">
+                  إضغط للذهاب لرابط المكتبة
+                </a>
+            </div>
+          </div>
+      </div>
+    `;
+  }
+
 }
 
 function renderTeachers() {

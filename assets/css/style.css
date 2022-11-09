@@ -34,6 +34,9 @@
    box-sizing: border-box;
    font-family: "Cairo",Arial,Helvetica,sans-serif;
 }
+.main_body{
+   height: calc(100vh - 182px) !important;
+}
 .bg-main{
    background: #126C66;
 }
@@ -80,6 +83,27 @@
 }
 .teacher-img{
    max-height: 4.6rem;
+}
+
+.volunteer_box{
+   background: #38847F;
+    padding: 1rem 2rem;
+    border-radius: 33px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.5;
+}
+.volunteer_box:hover{
+   background: #126C66;
+   color: white;
+   text-decoration: none;
+}
+
+.volunteer_box img{
+   filter: brightness(0) invert(1);
+   max-height: 2rem;
+   margin-left: 10px;
 }
 
 

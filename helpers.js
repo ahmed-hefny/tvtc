@@ -281,17 +281,16 @@ function renderElecLibs(){
   for (let i = 0; i < electronicLibraries.length; i++) {
     libContainer.innerHTML += `
       <div class="col-lg-4 col-md-6 col-12 mb-3">
-          <div
-            class="px-3 py-3 shadow-lg d-flex flex-column justify-content-between small-box text-decoration-none rounded-3 ">
-            <h4 class="text-main fw-bold ">
+        <div class="px-3 py-3 shadow-lg d-flex flex-column justify-content-between small-box text-decoration-none rounded-3 ">
+          <h4 class="text-main fw-bold ">
             ${electronicLibraries[i].name}
-            </h4>
-            <div>
-                <a href="${electronicLibraries[i].url}" target="_blank" class="d-block text-decoration-none">
-                  إضغط للذهاب لرابط المكتبة
-                </a>
-            </div>
+          </h4>
+          <div>
+            <a href="${electronicLibraries[i].url}" target="_blank" class="d-block text-decoration-none">
+              إضغط للذهاب لرابط المكتبة
+            </a>
           </div>
+        </div>
       </div>
     `;
   }

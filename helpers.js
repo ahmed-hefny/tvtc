@@ -141,7 +141,7 @@ const electronicLibraries = [
   },
 
 ]
-
+//un-needed any more, to be deleted
 const teachers = [
   {
     name: "أ/ احمد عباس الجعلي",
@@ -241,6 +241,175 @@ const teachers = [
   },
 ];
 
+const categories = [
+  {
+      id: 1,
+      name: 'تخصص دبلوم تقنية إدارة الاعمال المكتبية',
+      records: [
+          {
+              fullName: 'أ/عبد الرحمن عبدالهادي العمري',
+              mail: 'alamari@tvtc.gov.sa'
+          },
+          {
+              fullName: 'أ/عبدالعزيز علي مزهر',
+              mail: 'q_aziz@tvtc.gov.sa'
+          },
+          {
+              fullName: 'أ/سعد علي الشريف',
+              mail: 'saalshar@tvtc.gov.sa'
+          },
+          {
+              fullName: 'أ/ فهد احمد الصقور',
+              mail: 'falsgour@tvtc.gov.sa'
+          },
+          {
+              fullName: 'أ/ محمد محسن الشهري',
+              mail: 'mmalsh@tvtc.gov.sa'
+          },
+          {
+              fullName: 'أ/ محمد صالح السياري',
+              mail: 'malsayari@tvtc.gov.sa'
+          },
+          {
+              fullName: 'أ/سعد حاسن الغامدي ',
+              mail: 'Salghamdi12@tvtc.gov.sa'
+          },
+          {
+              fullName: 'أ/محمد رشيد الحربي',
+              mail: 'Malharbi2@tvtc.gov.sa'
+          },
+          {
+              fullName: 'أ/ابراهيم عتيق الجهني',
+              mail: 'ialjohany@tvtc.gov.sa'
+          },
+          {
+              fullName: 'أ/مرضي حسن الزهراني',
+              mail: 'Malzhrani1@tvtc.gov.sa'
+          },
+          {
+              fullName: 'أ/عامر عتيق الجهني',
+              mail: 'aaljohaney@tvtc.gov.sa '
+          },
+          {
+              fullName: 'أ/ابراهيم عبدالرحمن الوكيل',
+              mail: 'ialwakil@tvtc.gov.sa'
+          },
+          {
+              fullName: 'أ/عبدالرحمن احمد الجبيري',
+              mail: 'aaljubiry@tvtc.gov.sa'
+          },
+          {
+              fullName: 'أ/نبيل عبدالكريم الجدعاني',
+              mail: 'Naalgd@tvtc.gov.sa'
+          },
+
+      ]
+  },
+  {
+      id: 2,
+      name: 'تخصص دبلوم تقنية التسويق والابتكار :',
+      records: [
+          {
+              fullName: 'أ/احمد عباس الجعلي',
+              mail: 'aaljaaly@tvtc.gov.sa'
+          },
+          {
+              fullName: 'أ/علي عايض القرني ',
+              mail: 'aalgrni@tvtc.gov.sa'
+          },
+          {
+              fullName: 'أ/ بندر عابد اليوبي ',
+              mail: 'balyoubi@tvtc.gov.sa'
+          },
+          {
+            fullName: 'أ/محمد حميد الجحدلي ',
+            mail: 'maljahdali@tvtc.gov.sa'
+          },
+          {
+            fullName: 'أ/عبدالمنعم عبدالهادي الشهري ',
+            mail: 'Aalshehri17@tvtc.gov.sa'
+          },
+          {
+            fullName: 'أ/مزهر علي القحطاني ',
+            mail: 'Malqahtani4@tvtc.gov.sa '
+          },
+          {
+            fullName: 'أ/سعد عبدالله الغامدي ',
+            mail: 'Salghamdi15@tvtc.gov.sa '
+          },
+          {
+            fullName: 'أ/عبدالرحمن عبدالله القرني ',
+            mail: 'aalqarni@tvtc.gov.sa'
+          },
+          {
+            fullName: 'أ/عبيد عتيق السميري ',
+            mail: 'oalsumaire@tvtc.gov.sa'
+          },
+          {
+            fullName: 'أ/احمد حمود الجهني ',
+            mail: 'aaljehani@tvtc.gov.sa'
+          },
+
+      ]
+  },
+  {
+    id:3,
+    name: 'تخصص دبلوم تقنيات المحاسبة',
+    records: [
+      {
+        fullName: 'أ/محمد سعيد منسي',
+        mail: 'mmansi@tvtc.gov.sa'
+      },
+      {
+        fullName: 'أ/يحيى عبدالله الزباني',
+        mail: 'yalzubani@tvtc.gov.sa'
+      },
+      {
+        fullName: 'أ/حسن عباس قمصاني',
+        mail: 'hkmmosani@tvtc.gov.sa'
+      },
+      {
+        fullName: 'أ/زياد عبدالحميد السليماني ',
+        mail: 'zsulimay@tvtc.gov.sa'
+      },
+      {
+        fullName: 'أ/عدنان محمد بحاري ',
+        mail: 'abahari@tvtc.gov.sa'
+      },
+      {
+        fullName: 'أ/عوض سعيد الحربي ',
+        mail: 'Aalharbi1@tvtc.gov.sa'
+      },
+      {
+        fullName: 'أ/ ناصر سليم الجهني ',
+        mail: 'Nasar.a@tvtc.gov.sa '
+      },
+      {
+        fullName: 'أ/عايد عيد الصاعدي ',
+        mail: 'aalsaadi@tvtc.gov.sa '
+      },
+      {
+        fullName: 'أ/محمد حسن الغامدي ',
+        mail: 'mhalgh@tvtc.gov.sa '
+      },
+      {
+        fullName: 'أ/يوسف عبدالله الفريح ',
+        mail: 'yalfereeh@tvtc.gov.sa'
+      },
+      {
+        fullName: 'أ/حسن عطية المالكي ',
+        mail: 'Halmalki2@tvtc.gov.sa'
+      },
+      {
+        fullName: 'أ/احمد محمد باشيخ ',
+        mail: 'abashaikh@tvtc.gov.sa'
+      },
+      
+    ]
+  }
+
+]
+
 function renderUsedLib() {
   const libContainer = document.getElementById("usedLib");
   libContainer.innerHTML = "";
@@ -323,3 +492,50 @@ function renderTeachers() {
       `;
   }
 }
+
+function renderCategories() {
+  const sections = document.getElementById('section');
+  sections.innerHTML = '';
+  categories.map(category => {
+      sections.innerHTML += `
+              <h2 class="text-main pt-5">
+                  <span class="border-bottom ps-3 pb-2 mb-4 d-inline-block ">
+                      ${category.name}
+                  </span>
+              </h2>
+
+              
+              <div class="row" id="${category.id}" dir="rtl"></div>
+          `
+      renderRecords(category.id, category.records)
+  })
+}
+
+function renderRecords(id, records = []) {
+  const element = document.getElementById(id);
+  element.innerHTML = ''
+  records.map(record => {
+      element.innerHTML += `
+          <div class="col-md-6 col-12 mb-3">
+                  <div class="teachers-main-border p-3 d-flex justify-content-between align-items-center">
+                      <div class="w-25">
+                          <img src="./assets/images/favicon.png" class="teacher-img" alt="">
+                      </div>
+                      <div class="w-50 d-flex flex-column justify-content-between">
+                          <h4 class="text-center">
+                              ${record.fullName}
+                          </h4>
+                          <p class="text-center">
+                              <a href="mailto:${record.mail}">${record.mail}</a>
+                          </p>
+                      </div>
+                      <div class="w-25 d-flex justify-content-end">
+                          <img src="./assets/images/favicon.png" class="teacher-img" alt="">
+                      </div>
+                  </div>
+              </div>
+          `
+  })
+
+}
+
